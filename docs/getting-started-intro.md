@@ -24,7 +24,7 @@ In sum, we've taken the best parts of Git, BitTorrent, and Dropbox to design Dat
 
 #### Distributed Network
 
-Dat works on a distributed network unlike cloud services, such as Dropbox or Google Drive. This means Dat transfers files peer to peer, skipping centralized servers. Dat's network makes file transfers faster, encrypted, and auditable. You can even use Dat on local networks for offline file sharing or local backups. Dat reduces bandwidth costs on popular files, as downloads are *distributed* across all available computers, rather than centralized on a single host.
+Unlike cloud services like Dropbox or Google Drive, Dat works on a distributed network. This means Dat transfers files peer to peer, skipping centralized servers. Dat's network makes file transfers faster, encrypted, and auditable. You can even use Dat on local networks for offline file sharing or local backups. Dat reduces bandwidth costs on popular files, as downloads are *distributed* across all available computers, rather than centralized on a single host.
 
 #### Data History
 
@@ -35,7 +35,7 @@ backups to be stored efficiently on an external hard drive or a cloud serve by u
 #### Security
 
 Dat transfers files over an encrypted connection using state-of-the-art
-cryptography. Only users with your unique read key can access your files. Your dat read key allows users to download and re-share your files. To write updates to a dat, users must have the write key. Dat also verifies the hashes of files on download so no malicious content can be added. As long as the read key isn't shared outside of your team, the content will be encrypted, though the IP addresses and discovery key may become known. [Read more about security in dat.](learn-more-security.md)
+cryptography. Only users with your unique read key can access your files. Your dat read key allows users to download and re-share your files. To update a dat, users must have the write key. Dat also verifies the hashes of files on download so no one can add malicious content to your files. As long as the read key isn't shared outside of your team, the content will be encrypted, though the IP addresses and discovery key may become known. [Read more about security in dat.](learn-more-security.md)
 
 Note: There has not been an independent security audit for Dat.
 
